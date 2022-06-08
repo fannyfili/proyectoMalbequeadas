@@ -91,8 +91,19 @@ header { background-image: url(../images/fondopedregoso.JPG ) ;
     margin: 0 20px;
     text-align: left;
     }
+ footer p { background: rgb(115,110,119);
+    background: linear-gradient(90deg, rgba(115,110,119,0.1527777777777778) 0%, rgba(110,90,86,1) 55%, rgba(252,176,69,1) 100%);}   
+    footer form{  background: rgb(115,110,119);
+        background: linear-gradient(90deg, rgba(115,110,119,0.1527777777777778) 0%, rgba(110,90,86,1) 55%, rgba(252,176,69,1) 100%);
     
-#hero{
+    }
+
+footer div { background: rgb(115,110,119);
+    background: linear-gradient(90deg, rgba(115,110,119,0.1527777777777778) 0%, rgba(110,90,86,1) 55%, rgba(252,176,69,1) 100%);
+
+}
+
+    #hero{
         display: grid;
         grid-template-areas: "pase pase pase"
 
